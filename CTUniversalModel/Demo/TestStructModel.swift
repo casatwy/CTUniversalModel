@@ -11,5 +11,3 @@ import Foundation
 struct TestStructModel {
     var name:String?
 }
-
-extension TestStructModel:CTUniversalModel {}

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CTUniversalModel"
-  s.version      = "9"
+  s.version      = "10"
   s.summary      = "CTUniversalModel."
   s.swift_version= "5.1"
 
