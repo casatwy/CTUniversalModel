@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CTUniversalModel"
-  s.version      = "3"
+  s.version      = "4"
   s.summary      = "CTUniversalModel."
   s.swift_version= "5.1"
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CTUniversalModel/CTUniversalModel/**/*.{swift}"
+  s.source_files  = "CTUniversalModel/CTUniveralModel/**/*.{swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
