@@ -14,9 +14,9 @@
 		4A1EF0F82425C9C4001EEA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1EF0F72425C9C4001EEA9B /* Assets.xcassets */; };
 		4A1EF0FB2425C9C5001EEA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1EF0F92425C9C4001EEA9B /* LaunchScreen.storyboard */; };
 		4A1EF1052425C9E6001EEA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF1042425C9E6001EEA9B /* ViewController.swift */; };
-		4A1EF1072425CBAF001EEA9B /* CTUniversalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF1062425CBAF001EEA9B /* CTUniversalModel.swift */; };
 		4A1EF1092425CDC2001EEA9B /* TestStructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF1082425CDC2001EEA9B /* TestStructModel.swift */; };
 		4A1EF10B2425CDCF001EEA9B /* TestClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF10A2425CDCF001EEA9B /* TestClassModel.swift */; };
+		4A1EF11124260943001EEA9B /* CTUniversalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF11024260943001EEA9B /* CTUniversalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		4A1EF0FA2425C9C5001EEA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A1EF0FC2425C9C5001EEA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A1EF1042425C9E6001EEA9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A1EF1062425CBAF001EEA9B /* CTUniversalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUniversalModel.swift; sourceTree = "<group>"; };
 		4A1EF1082425CDC2001EEA9B /* TestStructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructModel.swift; sourceTree = "<group>"; };
 		4A1EF10A2425CDCF001EEA9B /* TestClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassModel.swift; sourceTree = "<group>"; };
+		4A1EF11024260943001EEA9B /* CTUniversalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTUniversalModel.swift; sourceTree = "<group>"; };
 		7443487735A9F991149CB01F /* Pods-CTUniversalModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTUniversalModel.release.xcconfig"; path = "Target Support Files/Pods-CTUniversalModel/Pods-CTUniversalModel.release.xcconfig"; sourceTree = "<group>"; };
 		A60CABE3A4B17F5363DEF59D /* Pods-CTUniversalModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTUniversalModel.debug.xcconfig"; path = "Target Support Files/Pods-CTUniversalModel/Pods-CTUniversalModel.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD3DCA25E4DA55489EE41D1 /* Pods_CTUniversalModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTUniversalModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +69,7 @@
 		4A1EF0ED2425C9C3001EEA9B /* CTUniversalModel */ = {
 			isa = PBXGroup;
 			children = (
-				4A1EF1022425C9E6001EEA9B /* CTUniveralModel */,
+				4A1EF10F24260943001EEA9B /* CTUniversalModel */,
 				4A1EF1032425C9E6001EEA9B /* Demo */,
 				4A1EF0EE2425C9C3001EEA9B /* AppDelegate.swift */,
 				4A1EF0F02425C9C3001EEA9B /* SceneDelegate.swift */,
@@ -81,14 +81,6 @@
 			path = CTUniversalModel;
 			sourceTree = "<group>";
 		};
-		4A1EF1022425C9E6001EEA9B /* CTUniveralModel */ = {
-			isa = PBXGroup;
-			children = (
-				4A1EF1062425CBAF001EEA9B /* CTUniversalModel.swift */,
-			);
-			path = CTUniveralModel;
-			sourceTree = "<group>";
-		};
 		4A1EF1032425C9E6001EEA9B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +89,14 @@
 				4A1EF1042425C9E6001EEA9B /* ViewController.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		4A1EF10F24260943001EEA9B /* CTUniversalModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A1EF11024260943001EEA9B /* CTUniversalModel.swift */,
+			);
+			path = CTUniversalModel;
 			sourceTree = "<group>";
 		};
 		A363138A7961A99597D53089 /* Frameworks */ = {
@@ -231,11 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1EF11124260943001EEA9B /* CTUniversalModel.swift in Sources */,
 				4A1EF0EF2425C9C3001EEA9B /* AppDelegate.swift in Sources */,
 				4A1EF1092425CDC2001EEA9B /* TestStructModel.swift in Sources */,
 				4A1EF10B2425CDCF001EEA9B /* TestClassModel.swift in Sources */,
 				4A1EF1052425C9E6001EEA9B /* ViewController.swift in Sources */,
-				4A1EF1072425CBAF001EEA9B /* CTUniversalModel.swift in Sources */,
 				4A1EF0F12425C9C3001EEA9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
