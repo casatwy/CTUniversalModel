@@ -17,7 +17,11 @@
 		4A1EF1092425CDC2001EEA9B /* TestStructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF1082425CDC2001EEA9B /* TestStructModel.swift */; };
 		4A1EF10B2425CDCF001EEA9B /* TestClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF10A2425CDCF001EEA9B /* TestClassModel.swift */; };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		4A1EF11124260943001EEA9B /* CTUniversalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF11024260943001EEA9B /* CTUniversalModel.swift */; };
+=======
+		4A1EF10E242608ED001EEA9B /* CTUniversalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF10D242608ED001EEA9B /* CTUniversalModel.swift */; };
+>>>>>>> Stashed changes
 =======
 		4A1EF10E242608ED001EEA9B /* CTUniversalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EF10D242608ED001EEA9B /* CTUniversalModel.swift */; };
 >>>>>>> Stashed changes
@@ -35,7 +39,11 @@
 		4A1EF1082425CDC2001EEA9B /* TestStructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructModel.swift; sourceTree = "<group>"; };
 		4A1EF10A2425CDCF001EEA9B /* TestClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassModel.swift; sourceTree = "<group>"; };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		4A1EF11024260943001EEA9B /* CTUniversalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTUniversalModel.swift; sourceTree = "<group>"; };
+=======
+		4A1EF10D242608ED001EEA9B /* CTUniversalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTUniversalModel.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 =======
 		4A1EF10D242608ED001EEA9B /* CTUniversalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTUniversalModel.swift; sourceTree = "<group>"; };
 >>>>>>> Stashed changes
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				4A1EF10F24260943001EEA9B /* CTUniversalModel */,
+=======
+				4A1EF10C242608ED001EEA9B /* CTUniversalModel */,
+>>>>>>> Stashed changes
 =======
 				4A1EF10C242608ED001EEA9B /* CTUniversalModel */,
 >>>>>>> Stashed changes
@@ -104,15 +116,21 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		4A1EF10F24260943001EEA9B /* CTUniversalModel */ = {
 			isa = PBXGroup;
 			children = (
 				4A1EF11024260943001EEA9B /* CTUniversalModel.swift */,
 =======
+=======
+>>>>>>> Stashed changes
 		4A1EF10C242608ED001EEA9B /* CTUniversalModel */ = {
 			isa = PBXGroup;
 			children = (
 				4A1EF10D242608ED001EEA9B /* CTUniversalModel.swift */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			path = CTUniversalModel;
@@ -251,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				4A1EF11124260943001EEA9B /* CTUniversalModel.swift in Sources */,
+=======
+				4A1EF10E242608ED001EEA9B /* CTUniversalModel.swift in Sources */,
+>>>>>>> Stashed changes
 =======
 				4A1EF10E242608ED001EEA9B /* CTUniversalModel.swift in Sources */,
 >>>>>>> Stashed changes
