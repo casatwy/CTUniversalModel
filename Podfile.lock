@@ -1,0 +1,16 @@
+PODS:
+  - SwiftHandyFrame (12)
+
+DEPENDENCIES:
+  - SwiftHandyFrame
+
+SPEC REPOS:
+  trunk:
+    - SwiftHandyFrame
+
+SPEC CHECKSUMS:
+  SwiftHandyFrame: 6d648e53a5b8b548ad87c4829e6ed646041f3fc7
+
+PODFILE CHECKSUM: ec36be191bbaac12e1dda76a045e9999755e4b39
+
+COCOAPODS: 1.9.0
