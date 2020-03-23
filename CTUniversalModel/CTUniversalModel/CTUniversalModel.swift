@@ -8,19 +8,22 @@
 
 import Foundation
 
-public protocol CTUniversalModel {
-    func ct_Get<T>(key:String?, defaultValue:T) -> T
-}
+public class CTUniversalModel {
+    var data:[AnyHashable:Any] = [:]
 
-public extension CTUniversalModel {
-    func ct_Get<T>(key:String?, defaultValue:T) -> T {
-        for property in Mirror(reflecting: self).children {
-            guard let propertyKey = property.label else { continue }
-            guard key == propertyKey else { continue }
-            if case Optional<Any>.some(let value) = property.value, let result = value as? T {
-                return result
-            }
+    public func get<T>(key:String?, defaultValue:T) -> T {
+        guard let key = key else { return defaultValue }
+        if let item = data[key] as? T {
+            return item
         }
         return defaultValue
+    }
+
+    public func set<T>(key:String?, value:T) {
+        data[key] = value
+    }
+
+    public func remove(key:String?) {
+        data.removeValue(forKey: key)
     }
 }
