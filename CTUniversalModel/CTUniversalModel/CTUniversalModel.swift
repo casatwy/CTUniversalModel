@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class CTUniversalModel {
+public final class CTUniversalModel {
     var data:[AnyHashable:Any] = [:]
 
     public func get<T>(key:String?, defaultValue:T) -> T {
