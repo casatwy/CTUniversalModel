@@ -9,7 +9,7 @@
 import Foundation
 
 public final class CTUniversalModel {
-    public var data:[AnyHashable:Any] = [:]
+    var data:[AnyHashable:Any] = [:]
 
     public func get<T>(key:String?, defaultValue:T) -> T {
         guard let key = key else { return defaultValue }
