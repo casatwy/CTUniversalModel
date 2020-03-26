@@ -26,4 +26,6 @@ public final class CTUniversalModel {
     public func remove(key:String?) {
         data.removeValue(forKey: key)
     }
+    
+    public init() {}
 }
